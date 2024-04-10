@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form class="form">
+      <div class="left">
+        <label for="ocena">Ocena:</label>
+        <input type="number" />
+        <br />
+        <label for="indeks">Broj indeksa:</label>
+        <input type="text" />
+        <br />
+        <label for="redni-br"> Redni broj izlaska na ispit: </label>
+        <select name="redni-br" id="redni-br">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+        <br />
+      </div>
+      <div class="right">
+        <label for="datum">Datum izlaska na ispit:</label>
+        <input type="date" />
+        <br />
+        <label for="rok">Rok:</label>
+        <input type="radio" name="rok" />
+        <label for="januar">Januar</label>
+        <input type="radio" name="rok" />
+        <label for="april">April</label>
+        <input type="radio" name="rok" />
+        <label for="jun">Jun</label>
+        <input type="radio" name="rok" />
+        <label for="septembar">Septembar</label>
+        <br />
+        <input type="checkbox" />
+        <label for="polozen">Polozio/la</label>
+        <br />
+        <input type="button" value="Posalji" class="posalji" />
+      </div>
+    </form>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
